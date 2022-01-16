@@ -1,0 +1,1075 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1600px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+}
+
+nav ul {
+  padding-left: 0px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 58px;
+}
+
+.a-style {
+  text-decoration: none;
+  color: black;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 29px;
+  color: white;
+  position: relative;
+}
+
+.a-style:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0078FF;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+
+.a-style:hover:after,
+.a-style:focus:after {
+  width: 100%;
+}
+
+.main-bgFix {
+  background-image: url(/img/bg_main3.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.header-main {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.header-main__scissors {
+  position: absolute;
+  margin-top: 168px;
+  margin-left: 30px;
+}
+
+.header-main__title {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 117px;
+  color: #FFFFFF;
+}
+
+.header-main__title-2 {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.header-main__button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 3px dashed #FFFFFF;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  padding: 42px 17px;
+  margin-top: 62px;
+  position: relative;
+  border: 3px dashed #FFFFFF;
+}
+
+.header-main__button-click {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.portfolio-title {
+  margin: 0;
+  padding: 50px 0 30px 0;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.portfolio-cards__card {
+  margin-bottom: 30px;
+}
+
+.img-card {
+  height: 350px;
+  width: 350px;
+}
+
+.aboutMe-wrapper {
+  background-color: #121212;
+}
+
+.aboutMe {
+  display: flex;
+  padding-top: 40px;
+}
+
+.aboutMe-title {
+  padding-top: 50px;
+  margin: 0;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.aboutMe-image {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.aboutMe-rightText {
+  margin-left: 177px;
+  align-content: space-between;
+}
+
+.aboutMe-rightText__info {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.aboutMe-rightText__experience {
+  display: flex;
+  text-align: center;
+  margin-top: 165px;
+  margin-bottom: 117px;
+}
+
+.aboutMe-rightText__experience-left__upperText {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.aboutMe-rightText__experience-left__downText {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.aboutMe-rightText__experience-right {
+  margin-left: 45px;
+}
+
+.aboutMe-rightText__experience-right__upperText {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.aboutMe-rightText__experience-right__downText {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.price-title {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.price-priceList {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.price-priceList__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-priceList__buttons-buttonForm__button {
+  padding: 26px 36px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.price-priceList__buttons-buttonForm__button:hover {
+  background: #0078FF;
+  color: white;
+}
+
+.price-priceList__prices {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.price-priceList__prices-price {
+  padding: 31px 0;
+  border-top: 1px solid black;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.tabcontentFix {
+  display: block;
+}
+
+.course-wrapper {
+  background-image: url(/img/course_bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.course-title {
+  padding-top: 50px;
+}
+
+.course-title__up {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.course-title__down {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 78px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.course-info {
+  margin-top: 68px;
+}
+
+.course-info__title {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+
+.course-info__steps {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.course-info__steps-step {
+  margin-right: 25px;
+}
+
+.course-info__steps-step__up {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 78px;
+  color: #FFFFFF;
+}
+
+.course-info__steps-step__down {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.course-info__button {
+  padding: 35px 15px;
+  background: #0078FF;
+  border-style: none;
+  margin-top: 51px;
+  margin-bottom: 50px;
+}
+
+.course-info__button-text {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+.footer-jobTimes {
+  display: flex;
+  border: 5px dashed #000000;
+  padding: 66px 102px 50px 102px;
+  margin-top: 80px;
+  justify-content: space-around;
+}
+
+.footer-jobTimes__title {
+  margin: 0;
+}
+
+.footer-jobTimes__time {
+  text-align: center;
+}
+
+.footer-jobTimes__time-weekUp {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.footer-jobTimes__time-weekDown {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.footer-info {
+  margin-top: 68px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.footer-info__information {
+  margin-left: 107px;
+}
+
+.footer-info__information-contacts {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.footer-info__information-adres {
+  margin-top: 56px;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.footer-info__information-socialLinks {
+  margin-top: 50px;
+}
+
+.footer-info__information-socialLinks__link {
+  width: 50px;
+  height: 50px;
+  margin-right: 32px;
+}
+
+.footer-info__information-logo {
+  margin-top: 50px;
+}
+
+.map {
+  width: 690px;
+  height: 440px;
+  border-style: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .li-item {
+    margin-right: 30px;
+  }
+  .header-main {
+    margin-top: 20%;
+  }
+  .container {
+    max-width: 900px;
+  }
+  .portfolio-cards {
+    justify-content: space-around;
+  }
+  .map {
+    width: 440px;
+  }
+  .footer-jobTimes {
+    padding: 50px 60px 50px 60px;
+  }
+  .footer-jobTimes__title {
+    font-size: 23px;
+  }
+  .footer-jobTimes__time-weekUp {
+    font-size: 20px;
+  }
+  .footer-jobTimes__time-weekDown {
+    font-size: 10px;
+  }
+  .footer-jobTimes__time {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 700px;
+  }
+  .course-wrapper {
+    display: none;
+  }
+  .li-item {
+    margin-right: 10px;
+  }
+  .a-style {
+    font-size: 14px;
+  }
+  .logo1 {
+    width: 130px;
+  }
+  .header-main {
+    margin-top: 20%;
+  }
+  .header-main__title {
+    font-size: 80px;
+  }
+  .portfolio {
+    display: none;
+  }
+  .aboutMe-rightText {
+    margin-left: 60px;
+  }
+  .aboutMe-rightText__info {
+    font-size: 18px;
+  }
+  .aboutMe-rightText__experience {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .aboutMe-rightText__experience-left__upperText {
+    font-size: 50px;
+  }
+  .aboutMe-rightText__experience-left__downText {
+    font-size: 15px;
+  }
+  .aboutMe-rightText__experience-right__upperText {
+    font-size: 50px;
+  }
+  .aboutMe-rightText__experience-right__downText {
+    font-size: 15px;
+  }
+  .aboutMe-image {
+    width: 200px;
+    height: 200px;
+  }
+  .footer-jobTimes {
+    padding: 20px 40px 20px 40px;
+  }
+  .footer-jobTimes__title {
+    font-size: 20px;
+  }
+  .footer-jobTimes__time-weekUp {
+    font-size: 15px;
+  }
+  .footer-jobTimes__time-weekDown {
+    font-size: 10px;
+  }
+  .footer-jobTimes__time {
+    margin-left: 20px;
+  }
+  .footer-info__information {
+    margin-left: 60px;
+  }
+  .footer-info__information-socialLinks__link {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-info__information-adres {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-main__scissors {
+    display: none;
+  }
+  .container {
+    max-width: 600px;
+  }
+  .header-main__title {
+    line-height: 100px;
+    font-size: 78px;
+  }
+  .header-main__button {
+    margin-top: 30px;
+  }
+  .price-priceList__buttons-buttonForm__button {
+    font-size: 15px;
+  }
+  .price-priceList__prices {
+    margin-bottom: 0;
+  }
+  .footer-jobTimes {
+    padding: 20px 40px 20px 40px;
+  }
+  .footer-jobTimes__title {
+    padding-top: 5px;
+    font-size: 15px;
+  }
+  .footer-jobTimes__time-weekUp {
+    font-size: 15px;
+  }
+  .footer-jobTimes__time-weekDown {
+    font-size: 8px;
+  }
+  .footer-jobTimes__time {
+    margin-left: 15px;
+  }
+  .footer-jobTimes {
+    border: 3px dashed black;
+  }
+  .map {
+    width: 300px;
+    height: 300px;
+  }
+  .footer-info__information-contacts {
+    font-size: 25px;
+  }
+  .footer-info__information-adres {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .footer-info__information-socialLinks {
+    margin-top: 30px;
+  }
+  .footer-info__information-logo {
+    margin-top: 15px;
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-bgFix {
+    height: 65vh;
+  }
+  .container {
+    width: 400px;
+  }
+  .a-style {
+    font-size: 13px;
+  }
+  .li-item {
+    margin-right: 4px;
+  }
+  .logo, .header-main__scissors, .aboutMe-image {
+    display: none;
+  }
+  .header-main__title {
+    font-size: 50px;
+  }
+  .header-main__title-2 {
+    font-size: 15px;
+  }
+  .header-main__button {
+    padding: 30px 10px;
+  }
+  .header-main__button-click {
+    font-size: 20px;
+  }
+  .aboutMe-rightText {
+    margin-left: 0;
+  }
+  .price-priceList__buttons-buttonForm__button {
+    padding: 13px 10px;
+  }
+  .price-priceList__prices {
+    margin-top: 25px;
+  }
+  .price-priceList__prices-price {
+    padding: 20px 0;
+  }
+  .footer-info {
+    display: block;
+  }
+  .map {
+    width: 100%;
+  }
+  .footer-jobTimes {
+    padding: 10px 20px 10px 20px;
+  }
+  .footer-jobTimes__title {
+    display: none;
+  }
+  .footer-jobTimes__time-weekUp {
+    font-size: 10px;
+  }
+  .footer-jobTimes__time-weekDown {
+    font-size: 10px;
+  }
+  .footer-jobTimes__time {
+    margin-left: 15px;
+  }
+  .footer-info__information {
+    margin-left: 0;
+  }
+  .wrapper-fix {
+    display: flex;
+  }
+  .footer-info__information-logo {
+    width: 130px;
+    height: 45px;
+  }
+  .footer-info__information-socialLinks {
+    margin-top: 23px;
+  }
+  .footer-info {
+    margin-top: 30px;
+  }
+  .aboutMe-wrapper {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .main-bgFix {
+    height: 55vh;
+  }
+  .container {
+    width: 320px;
+  }
+  .nav-hide {
+    display: none;
+  }
+  .header-main__title {
+    font-size: 40px;
+    margin: 0;
+  }
+  .price-priceList__buttons-buttonForm__button {
+    padding: 10px 3px;
+  }
+  .li-item {
+    display: none;
+  }
+  .footer-jobTimes__time {
+    margin-left: 8px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
