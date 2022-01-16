@@ -1050,7 +1050,7 @@ nav ul li {
 
 @media only screen and (max-width: 410px) {
   .main-bgFix {
-    height: 100vh;
+    height: 60vh;
   }
   .container {
     width: 320px;
