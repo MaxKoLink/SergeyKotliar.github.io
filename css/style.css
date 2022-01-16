@@ -796,6 +796,15 @@ nav ul li {
   border-style: none;
 }
 
+@media only screen and (max-width: 1600px) {
+  .container {
+    width: 1200px;
+  }
+  .header-main {
+    margin-top: 8%;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .li-item {
     margin-right: 30px;
