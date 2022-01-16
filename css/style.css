@@ -396,7 +396,7 @@ nav ul li {
 }
 
 .main-bgFix {
-  background-image: url(/img/bg_main3.png);
+  background-image: url(../img/bg_main3.png);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -627,7 +627,7 @@ nav ul li {
 }
 
 .course-wrapper {
-  background-image: url(/img/course_bg.png);
+  background-image: url(../img/course_bg.png);
   background-size: cover;
   background-position: center;
 }
