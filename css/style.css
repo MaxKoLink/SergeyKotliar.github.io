@@ -398,9 +398,10 @@ nav ul li {
 .main-bgFix {
   background-image: url(../img/bg_main3.png);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   height: 100vh;
   background-attachment: fixed;
+  max-width: 100%;
 }
 
 .header-main {
@@ -845,6 +846,9 @@ nav ul li {
 }
 
 @media only screen and (max-width: 992px) {
+  .main-bgFix {
+    background-attachment: scroll;
+  }
   .container {
     max-width: 700px;
   }
@@ -982,8 +986,14 @@ nav ul li {
 }
 
 @media only screen and (max-width: 600px) {
+  .footer-info__information-adres {
+    margin-top: 10px;
+  }
+  .footer-info__information-contacts {
+    margin-top: 20px;
+  }
   .main-bgFix {
-    height: 65vh;
+    height: 550px;
   }
   .container {
     width: 400px;
@@ -1029,6 +1039,7 @@ nav ul li {
   }
   .footer-jobTimes {
     padding: 10px 20px 10px 20px;
+    margin-top: 40px;
   }
   .footer-jobTimes__title {
     display: none;
@@ -1038,6 +1049,9 @@ nav ul li {
   }
   .footer-jobTimes__time-weekDown {
     font-size: 10px;
+  }
+  .footer-info__information-socialLinks__link {
+    margin-right: 18px;
   }
   .footer-jobTimes__time {
     margin-left: 15px;
@@ -1065,7 +1079,7 @@ nav ul li {
 
 @media only screen and (max-width: 410px) {
   .main-bgFix {
-    height: 60vh;
+    height: 500px;
   }
   .container {
     width: 320px;
